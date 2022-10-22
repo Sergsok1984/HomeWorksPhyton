@@ -6,7 +6,7 @@
 import random
 
 k = int(input("Введите натуральную степень k = "))
-lst = [random.randint(0, 101) for i in range(k + 1)]
+lst = [random.randint(0, 100) for i in range(k + 1)]
 lst = lst[::-1]
 polynom = ''
 if len(lst) < 1: 
