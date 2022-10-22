@@ -4,7 +4,7 @@
 import decimal
 decimal.getcontext().rounding = decimal.ROUND_FLOOR
 
-d = (input('Введите точность округления d: '))
+d = input('Введите точность округления d: ')
 pi = 0
 if 10 ** - 10 <= float(d) <= 10 ** - 1:
     for n in range(1, 1000000):
