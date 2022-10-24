@@ -42,7 +42,7 @@ while value > 28:
         flag = False
         p_print(player1, k, count1, value)
     else: 
-        k = input_dat(player1)                        
+        k = input_dat(player2)                        
         count2 += k
         value -= k
         flag = True
