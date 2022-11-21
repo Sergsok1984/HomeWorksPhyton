@@ -10,7 +10,6 @@ df = pd.read_csv('Seminar8/data_base.csv', encoding='utf-8')
 def loading_date():
     '''Загружена база данных сотрудников'''
     print(df)
-    return
 
 
 @LOG
