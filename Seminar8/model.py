@@ -35,7 +35,6 @@ def delete_date():
     x = int(input('Введите ID сотрудника, данные которого нужно удалить: '))
     df = df.loc[df['ID'] != x]
     print(df)
-    return
 
 
 @LOG
