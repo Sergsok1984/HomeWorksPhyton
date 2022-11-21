@@ -26,7 +26,6 @@ def add_date():
                'Имя': x3, 'Отчество': x4, 'Дата рождения': x5, 'Должность': x6}
     df = df.append(new_row, ignore_index=True)
     print(df)
-    return
 
 
 @LOG
